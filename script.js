@@ -9,23 +9,17 @@ class Animal {
 	}
 
 	makeSound(){
-		console.log(this._sound);
+		console.log("The " + this._species + " makes a sound");
 	}
 }
 
 class Dog extends Animal {
-	constructor(dog){
-		super(dog);
-	}
 	bark(){
 		console.log("woof");
 	}
 }
 
 class Cat extends Animal {
-	constructor(cat){
-		super(cat);
-	}
 	purr(){
 		console.log("purr");
 	}
